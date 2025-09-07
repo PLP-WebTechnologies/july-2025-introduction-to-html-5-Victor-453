@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Accessible HTML5 Page</title>
-  <meta name="description" content="A simple HTML5 webpage demonstrating accessibility and SEO basics using semantic structure.">
-</head>
-<body>
-  <!-- Header landmark -->
-  <header>
-    <h1>Welcome to My Accessible & SEO-Friendly Page</h1>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#articles">Articles</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Main landmark -->
-  <main>
-    <!-- About Section -->
-    <section id="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">About This Page</h2>
-      <p>This page is built using semantic HTML5 elements, designed to be accessible for all users and optimized for search engines.</p>
-    </section>
-
-    <!-- Articles Section -->
-    <section id="articles" aria-labelledby="articles-heading">
-      <h2 id="articles-heading">Latest Articles</h2>
-      
-      <article aria-labelledby="article1-title">
-        <h3 id="article1-title">How HTML5 Improves Accessibility</h3>
-        <p>HTML5 introduces landmarks and semantic elements that make navigation easier for screen readers and assistive technologies.</p>
-      </article>
-
-      <article aria-labelledby="article2-title">
-        <h3 id="article2-title">SEO Basics for Beginners</h3>
-        <p>SEO starts with a well-structured page, clear headings, descriptive metadata, and content that search engines can easily understand.</p>
-      </article>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
-      <p>If you’d like to reach out, email us at 
-        <a href="mailto:info@example.com">info@example.com</a>.
-      </p>
-    </section>
-  </main>
-
-  <!-- Footer landmark -->
-  <footer>
-    <p>&copy; 2025 My Accessible Page. All rights reserved.</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple semantic html page" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Simple HTML page</h1>
+      <nav>
+        <ul>
+          <li><a href="#os">Operating Systems</a></li>
+          <li><a href="#pl">Programming Languages</a></li>
+          <li><a href="#linuxde">Linux Desktop Environments</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Operating Systems -->
+      <section id="os">
+        <h2>Operating Systems</h2>
+        <h3>Windows</h3>
+        <p>
+          Windows is the most used operating system in desktop computers and
+          laptop due to its ease of use.
+        </p>
+        <h3>Linux</h3>
+        <p>Linux is used in almost all super computers. It is less resource intensive.</p>
+        <h3>MacOS</h3>
+        <p>MacOS is commonly used to run graphics softwares and editing softwares.</p>
+      </section>
+      <!-- Programming languages -->
+      <section id="pl">
+        <h2>Programming Languages</h2>
+        <ol>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Go</li>
+          <li>C</li>
+          <li>C++</li>
+        </ol>
+      </section>
+      <!-- Linux Desktop Environments -->
+      <section>
+        <h2>Linux Desktop Environments</h2>
+        <h3>Gnome</h3>
+        <p>Comes preinstalled in ubuntu. Allows little customization<./p>
+        <h3>KDE Plasma</h3>
+        <p>Allows customization. Is less resource intensive as compared to Gnome.</p>
+      </section>
+    </main>
+    <!-- Footer -->
+     <footer>
+      <p>&copy; 2025. Victor. All rights reserved.</p>
+     </footer>
+  </body>
 </html>
